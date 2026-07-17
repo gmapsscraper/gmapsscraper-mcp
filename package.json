@@ -1,6 +1,7 @@
 {
   "name": "@gmapsscraper/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.gmapsscraper/mcp",
   "description": "MCP server for gmapsscraper.io — let Claude, Cursor and any MCP client scrape Google Maps business data: names, phones, emails, websites, ratings.",
   "type": "module",
   "bin": {

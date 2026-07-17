@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.gmapsscraper/mcp",
-  "description": "Scrape Google Maps business data from any MCP client — names, phones, emails, websites, ratings. Powered by the gmapsscraper.io API.",
+  "description": "Scrape Google Maps business data from any MCP client — names, phones, emails, websites, ratings.",
   "status": "active",
   "repository": {
     "url": "https://github.com/gmapsscraper/gmapsscraper-mcp",
