@@ -1,0 +1,59 @@
+{
+  "name": "@gmapsscraper/mcp",
+  "version": "0.1.0",
+  "description": "MCP server for gmapsscraper.io — let Claude, Cursor and any MCP client scrape Google Maps business data: names, phones, emails, websites, ratings.",
+  "type": "module",
+  "bin": {
+    "gmapsscraper-mcp": "bin.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin.js",
+    "src",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node bin.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "google maps scraper",
+    "google-maps",
+    "scraper",
+    "lead generation",
+    "leads",
+    "email extractor",
+    "claude",
+    "ai-agent",
+    "local business"
+  ],
+  "homepage": "https://gmapsscraper.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmapsscraper/gmapsscraper-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmapsscraper/gmapsscraper-mcp/issues"
+  },
+  "author": "gmapsscraper.io (https://gmapsscraper.io)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@gmapsscraper/sdk": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  }
+}

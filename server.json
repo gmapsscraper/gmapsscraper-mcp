@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.gmapsscraper/mcp",
+  "description": "Scrape Google Maps business data from any MCP client — names, phones, emails, websites, ratings. Powered by the gmapsscraper.io API.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/gmapsscraper/gmapsscraper-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://gmapsscraper.io",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@gmapsscraper/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "GMAPSSCRAPER_API_KEY",
+          "description": "API key from https://gmapsscraper.io/dashboard (free tier: 10 credits)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
